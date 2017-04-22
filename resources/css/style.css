@@ -1,0 +1,106 @@
+div {
+  border: 1px solid black;
+}
+
+body {
+  margin: 0;
+}
+/* Header section */
+
+header {
+  display: flex;
+  align-items; center;
+  width: 100%;
+  height: 85px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  border-bottom: 1px solid black;
+  display: fixed;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo span {
+  padding-left: 10px;
+}
+
+/* Top nav */
+nav {
+  margin-right: 30px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 30px 10px;
+}
+
+a {
+  color: black;
+}
+
+/* Main content */
+
+.main {
+  display: flex;
+  width: 1230px;
+  margin: 0 auto 80px auto;
+  padding-top: 115px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+/* Image and caption styling */
+
+.overlay-caption {
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Large column (left) styling */
+
+.column.large {
+  width: 630px;
+}
+
+.main-story .overlay-caption {
+  background-image: url("../images/img-story-main.png");
+  font-size: 40px;
+  text-align: left;
+}
+
+.earth.overlay-caption {
+  background-image: url("../images/img-story-2.png");
+}
+
+.light-news.overlay-caption {
+  background-image: url("../images/img-story-3.png");
+}
+
+/* Medium (middle) column styling */
+
+.column.medium {
+  width: 300px;
+}
+
+.cat.overlay-caption {
+  background-image: url("../images/img-story-1.png");
+}
+
+.column.small {
+  width: 240px;
+}
